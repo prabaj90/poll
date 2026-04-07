@@ -1,0 +1,114 @@
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 50px;
+  background: rgba(255, 255, 255, 0.9);
+  color: #333;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #0984e3;
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  margin: 30px 0;
+}
+
+button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 10px;
+  cursor: pointer;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.yes-btn {
+  background: #00b894;
+}
+
+.yes-btn:hover {
+  background: #00a085;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.no-btn {
+  background: #e17055;
+}
+
+.no-btn:hover {
+  background: #d63031;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.counts {
+  margin-top: 40px;
+}
+
+.counts p {
+  font-size: 1.1em;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.reset-btn {
+  background: #ddd;
+  color: #333;
+}
+
+.reset-btn:hover {
+  background: #bbb;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.leading-pill {
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-weight: 700;
+  color: white;
+  margin-left: 8px;
+}
+
+.leading-pill.yes-pill {
+  background: #00b894;
+}
+
+.leading-pill.no-pill {
+  background: #e17055;
+}
+
+.leading-pill.neutral-pill {
+  background: #0984e3;
+}
+
+.vote-status {
+  color: #ff9800;
+  font-weight: bold;
+  margin: 10px 0;
+  text-align: center;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
